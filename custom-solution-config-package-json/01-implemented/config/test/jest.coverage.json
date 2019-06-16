@@ -9,5 +9,7 @@
     "^core(.*)$": "<rootDir>/src/core/$1",
     "^layout(.*)$": "<rootDir>/src/layout/$1",
     "^pods(.*)$": "<rootDir>/src/pods/$1"
-  }
+  },
+  "collectCoverage": true,
+  "collectCoverageFrom": ["src/**/*.{ts,tsx}"]
 }

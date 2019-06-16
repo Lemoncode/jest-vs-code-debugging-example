@@ -9,5 +9,5 @@ it('sums two numbers', () => {
   const total = sum(a, b);
 
   // Assert
-  expect(total).toBe(4);
+  expect(total).toBe(5);
 });

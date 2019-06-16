@@ -1,7 +1,7 @@
 {
   "name": "poc-matrux-react",
   "version": "1.0.0",
-  "description": "POC Matrux with React",
+  "description": "Sample React App",
   "main": "index.js",
   "scripts": {
     "start": "npm run start:dev",
