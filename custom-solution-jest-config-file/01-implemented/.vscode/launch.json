@@ -6,6 +6,7 @@
       "request": "launch",
       "name": "Jest single run all tests",
       "program": "${workspaceRoot}/node_modules/jest/bin/jest.js",
+      "env": { "CI": "true" },
       "args": [
         "-c",
         "./config/test/jest.json",
