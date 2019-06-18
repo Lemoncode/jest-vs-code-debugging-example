@@ -4,7 +4,7 @@ Demo material from the post [Using Visual Studio Code to debug Jest based unit t
 
 Examples in this repo:
   - **create-react-app**: configuring Jest + VS Code integrated debugging on a project created using _create-react_app_
-  - **custom-solution-config-package-sjon: configuration Jest + VS Code integrated debugging on a project created from scratch
+  - **custom-solution-config-package-json**: configuration Jest + VS Code integrated debugging on a project created from scratch
   that contains all the jest configuration in the _package.json_ file.
   - **custom-solution-jest-config-file**:configuration Jest + VS Code integrated debugging on a project created from scratch
   that contains all the jest configuration in a separate Jest config file.
