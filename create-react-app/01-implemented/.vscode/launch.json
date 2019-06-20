@@ -5,8 +5,9 @@
       "name": "Debug Tests Single Run",
       "type": "node",
       "request": "launch",
+      "env": { "CI": "true" },
       "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",
-      "args": ["test", "--runInBand", "--no-cache", "--watchAll=false"],
+      "args": ["test", "--runInBand", "--no-cache"],
       "cwd": "${workspaceRoot}",
       "protocol": "inspector",
       "console": "integratedTerminal",
@@ -17,7 +18,7 @@
       "type": "node",
       "request": "launch",
       "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",
-      "args": ["test", "--runInBand", "--no-cache", "--watchAll=true"],
+      "args": ["test", "--runInBand", "--no-cache", "--watchAll"],
       "cwd": "${workspaceRoot}",
       "protocol": "inspector",
       "console": "integratedTerminal",
@@ -33,7 +34,7 @@
         "${fileBasenameNoExtension}",
         "--runInBand",
         "--no-cache",
-        "--watchAll=true"
+        "--watchAll"
       ],
       "cwd": "${workspaceRoot}",
       "protocol": "inspector",
