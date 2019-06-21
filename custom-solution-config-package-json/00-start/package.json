@@ -16,10 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://nasdan@bitbucket.org/lemoncoders/poc-ocu-matrux-front.git"
   },
   "license": "MIT",
-  "homepage": "https://bitbucket.org/lemoncoders/poc-ocu-matrux-front#readme",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
